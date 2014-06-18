@@ -1,0 +1,241 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	text-align: center;
+	font-family:  "Times New Roman", serif;
+	font-size: 12pt;
+	padding:0pt;
+	margin:0pt; 
+      	margin-top:0px;
+	padding-top:0px;	
+}
+
+html{
+	padding-top:0pt;
+	margin-top:0pt;
+}
+
+
+div#page-title{
+	margin-top: 120px;
+	margin-bottom: 40px;
+}
+
+div.content{
+	margin-top: 0px;
+	margin-left: 23%;
+	margin-right: 23%;
+	margin-bottom: 100px;
+	text-align: justify;
+}
+
+
+
+div#footer{
+	position: fixed;
+	bottom: 10px;
+	left: 5px;
+	font-size: 9pt;
+}
+
+img#me-picture{
+	margin-top:0px;
+	margin-bottom: 50px;
+	width: 300px;
+}
+
+
+div#content-startpage{
+	text-align: center;
+	margin-top: 70px;
+}
+
+div#navigation-bar{
+	background-color: #005C5C;
+	position:fixed;
+	top:0px;
+	width:100%;
+}
+
+
+div.horizontal-length{
+	height:900px;
+}
+
+ul#navigation-bar{
+	list-style: none;
+  	padding: 0;
+  	width: 400px;
+  	margin: 0 auto;
+}
+
+#navigation-bar li {  
+    display: block;  
+    float:left;
+}  
+
+#navigation-bar li a {  
+	width: 200px;
+	font-family: "Alef";	
+
+    	color: #ffffff;  
+	background:#005C5C;
+	display: inline-block;  
+	outline: none;  
+	text-decoration: none;
+
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+ 
+    /* Animation (Webkit, Gecko & Mozilla) */  
+    -webkit-transition-duration: 0.10s;  
+    -webkit-transition-timing-function: ease-out;  
+    -moz-transition-duration: 0.10s;  
+    -moz-transition-timing-function: ease-out;
+    
+} 
+
+#navigation-bar li a:hover {  
+	background: #99CC00;  
+}  
+  
+#navigation-bar li a:active {  
+    	background: #669900;
+} 
+ 
+#projects.chosen{
+	background:#49C981;
+}
+
+#about.chosen{
+    	background: #49C981;  
+}
+
+
+/*   */
+
+.project-list li{
+	padding-top: 15pt;
+	font-size: 12pt;
+}
+
+ul.project-list{
+	list-style-type: none;
+	max-width: 700px;
+	margin:auto;
+	padding-left:0pt;
+}
+
+/*images:  */
+.in-text-image{
+	margin: 10px 40px 40px 40px;
+}
+
+.frame{
+	border:1px solid black;
+}
+
+.restrain-max{
+	max-width:100%; 
+	max-height:100%; 
+	margin:0;
+}
+
+.right{
+	float: right;
+	margin-right:0;
+}
+
+figcaption{
+	margin-bottom: 20px;
+	font-style: italic;
+}
+
+figure.table{
+	margin-left:0;
+	margin-right:0;	
+}
+
+table.pictures{
+	width:100%;
+}
+
+/*    */
+#content-about{
+	font-size: 13pt;
+}
+
+#small-column{
+	width: 500px;
+	margin: 0 auto;
+}
+
+/*p{
+	text-indent: 40px;
+}
+
+p.no-indent{
+	text-indent: 0px;
+}*/
+
+p.project{
+	padding-top: 120px;
+}
+
+
+
+
+/* CITATIONS */
+span.cite-journal{
+	font-style:italic;
+}
+
+p.citation{
+	font-size:11pt;
+}
+
+
+
+
+/* font */
+
+h1#page-title{
+	font-size: 50pt;
+	margin-bottom: 0pt;
+	font-family: 'Times New Roman', sans-serif;
+	font-weight: 300;
+	margin-top:20pt;
+}
+/* Amatic!, Gilda Display, Sorts Mill Goudy*/
+
+h3{
+	font-family: "Alef", Arial, sans-serif;
+	font-size: 18pt;
+	margin-bottom: 5pt;
+}
+
+h2{
+	font-family: "Alef", Arial, sans-serif;
+	font-size: 24pt;
+	line-height: 26pt;
+	margin-bottom: 10pt;
+
+}
+
+
+a.projects{
+	font-family: "Alef", Arial, sans-serif;
+	text-decoration:none;
+}
+
+a{
+	text-decoration:none;
+}
+
+ul {
+	padding-left: 25pt;
+}

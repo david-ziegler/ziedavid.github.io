@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>David Ziegler</title>
+
+		<link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic|Alef:700|Amatic+SC:700' rel='stylesheet' type='text/css'> 
+		<script type="text/javascript" language="Javascript" src="http://ajax.aspnetcdn.com/ajax/jquery/jquery-1.4.1.min.js"></script>
+        
+
+         <script type='text/x-mathjax-config'>
+		  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']],
+		  displayMath: [['\\[','\\]'], ['$$','$$']]}});
+		</script><script src='http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' type='text/javascript'>
+		</script> 
+
+		<script type='text/javascript' src='js/main.js'></script>
+		<link rel='stylesheet' type='text/css' href='css/style.css'>
+	</head>	
+
+
+
+	<body>
+		<div id='navigation-bar'>
+			<ul id='navigation-bar'>
+				<li><a id='projects' class='navigation' href='index.html'>Projects</a></li>
+				<li><a id='about' class='navigation' href='about.html'>about me</a></li>
+			</ul>
+		</div>
+		<div id='page-title'>
+			<h1 id='page-title'>David Ziegler</h1>
+		</div>
+
+		
+		<div class='content' id='content-projects'>
+				<ul class='project-list'>
+					<li><a class='projects' href='index.html#bachelorthesis'>Determining the Temporal Order
+					of Events in Natural Language Using Learned Commonsense Knowledge</a>&nbsp;(2014)</li>
+					In my bachelor thesis I am testing whether using commonsense knowledge
+					about the typical ordering of events learned by a classifier can benefit a 
+					natural language understanding system.
+					<li><a class='projects' href='index.html#tedxaucollege'>TEDxAUCollege Website</a>&nbsp;(2013)</li>
+					Created the website for the TEDxAUCollege event.
+					<li><a class='projects' href='index.html#alzheimer'>Eye-Movement Experiment for Early Detection of Alzheimer</a>&nbsp;(2013)</li>
+					Internship at National University of Singapore, helping to develop a system for an eye-movement experiment. Includes algorithms to detect patterns in the eye-movements like fixations and saccades etc.
+					<li><a class='projects' href='index.html#sharepad'>Sharepad</a>&nbsp;(in progress) (2013)</li>
+					Just a white webpage on which you can draw. Helps if you want to explain things to your friends, collaborate in a team etc.
+					<li><a class='projects' href='index.html#swarm-robots'>Swarm Robots</a>&nbsp;(2008-2010)</li>
+					How can robots collaborate to solve a task together? Project with <a href='http://www.tobiassturm.de/' target="_blank">Tobias Sturm</a> and Renke Schulte.
+					<li><a class='projects' href='index.html#mindshare'>Mindshare</a>&nbsp;(2007)</li>
+					Website that enables students to study collaboratively.
+					<li><a class='projects' href='index.html#fractals'>Sierpinski Fractals in Polygons</a>&nbsp;(2005-2006)</li>
+					Program to generate Sierpinski-fractals for any polygon and any number of dimensions.
+				</ul>
+
+
+
+
+
+				<div id='projects'>
+					<br>
+			
+			<p id='bachelorthesis' class='project'><a name='bachelorthesis'></a>
+					<h2>Determining the Temporal Order
+					of Events in Natural Language Using Learned Commonsense Knowledge</h2>
+
+				       <p>In many applications of natural language understanding there is a need for
+				       extracting the temporal order of events in a text, e.g. 
+				       document summarization, machine translation, and question answering. Most 
+				       current temporal order classifiers
+				       use linguistic features, for example the tense of the event or cues like "after" etc. 
+					</p>
+					<p>
+					However, humans use commonsense knowledge additional to the explicitly stated information
+				       in a text in order to understand it. Similarly, natural language understanding systems
+				       can be expected to benefit from such knowledge. Modi &amp; Titov (2014) developed a
+				      neural embedding model to learn the prototypical temporal order of events. It's a compositional
+				      model, combining verbs and their arguments (subject, objects etc.) in order to represent 
+				      events. In my thesis I am modifying the <a href="https://code.google.com/p/cleartk/"
+					      target="_blank">ClearTK TimeML</a> system by Bethard (2013) to take the outcome
+				      of Modi &amp; Titov's classifier as an additional feature to classify relations 
+				      between events. ClearTK TimeML is a participant in 
+				      <a href="http://www.cs.york.ac.uk/semeval-2013/task1/" target="_blank">TempEval2013</a>
+				      which is a competition where the task is to annotate raw text with time expressions,
+				      events, temporal links between events (and events and times), and the relation types
+				      of these links.</p>
+				      
+				      <p>Supervised by <a href="http://ivan-titov.org/" target="_blank">Ivan Titov</a>
+				       and his Phd student <a href="http://www.mmci.uni-saarland.de/en/members/ashutosh_modi"
+					       target="_blank">Ashutosh Modi</a> I am testing whether using commonsense
+				       knowledge as an additional feature in the ClearTK system can improve its performance
+				       on the TempEval2013 task.</p>	
+
+				       <br/>
+				       <br/>
+				       <p class="citation">
+				       <span class="cite-author">Bethard, S.</span>
+				       <span class="cite-year">(2013).</span> 
+				       <span class="cite-title">ClearTK-TimeML: A minimalist approach to TempEval 2013</span>
+				       In <span class="cite-journal">Second Joint Conference on Lexical and Computational 
+					       Semantics (* SEM)</span>
+				       <span class="cite-vol">(Vol. 2., pp. 10-14)</span>
+				       </p>
+				       
+				       <p class="citation">
+				       <span class="cite-author">Modi, A., &amp; Titov, I.</span>
+				       <span class="cite-year">(2014).</span> 
+				       <span class="cite-title">Learning Semantic Script Knowledge with Event Embeddings.</span>
+				       Submitted to <span class="cite-journal">Eighteenth Conference on Computational Natural
+					       Language Learning</span>
+				       </p>
+			</p>
+			<br>
+			<hr>
+
+
+			<div>
+				
+			<p id='tedxaucollege' class='project'><a name='tedxaucollege'></a>
+				<figure class='right'>   
+                        <img src='assets/tedxaucollege.jpg' alt='tedxaucollege' style='width: 200px; margin-left: 50px;'></img>        
+                        </figure>
+					<h2>TEDxAUCollege Website</h2>
+					
+		
+					<p>In 2014 we organized the first TEDx event at Amsterdam University College. As part of 
+					the PR team I created the website for the event: <a href="http://tedxaucollege.com/" 
+						target="_blank">tedxaucollege.com</a></p>				
+			</p>
+			</div>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+
+			<p id='alzheimer' class='project'><a name='alzheimer'></a>
+					<h2>Using Eye-Movements for Early Detection of Alzheimer</h2>
+
+					<p>During this internship at National University of Singapore I implemented several algorithms to detect fixations in eye-movement data. Eye movement is always composed of fixations of a few hundred milliseconds and saccades or movements between fixations. The two most accurate algorithms are one that is based on distance between succeeding points and the other is using a Hidden Markov Model based on the speed of movement. Hidden Markov Models are a machine learning technique to find a sequence of states (fixations/saccades) that is most likely, based on the probability to change from one state to another given the speed of movement at a certain point of time.</p>
+					<p>After implementing these algorithms I started to develop an environment for an experiment for early detection of alzheimer disease. In the middle of the screen is a stimulus shown. Then another stimulus shows up either to the left or right. The subject is told to look in the opposite direction of this stimulus. Alzheimer patients sometimes have problems with this task. Using the fixation detection algorithms the program analyses in which direction the subject looked after the stimulus was shown.</p>	
+
+			 <figure class='in-text-image'>   
+                        <img src='assets/eyetracking.jpg' alt='eyetracking' style='width: 700px'></img>             <figcaption>Figure 1: gazeplot during an experiment (blue x-coordinate, green y-coordinate, fixations marked with black bars)</figcaption>
+                        </figure>
+			</p>
+
+
+                   	<hr>
+		
+			<p id='sharepad' class='project'><a name='sharepad'></a>
+					<h2>Sharepad</h2>
+					<p>Whenever I try to understand something, plan a project or explain math to a friend the first thing I do is take my notepad and draw it. With sharepad this can be done in the cloud. So, people at different places can collaborate and access earlier sharepads whenever they want again. The url of every sharepad can be sent to others to join it. Everyone can then simultaneously draw in it and see changes in real time. (project with <a href='http://www.tobiassturm.de/' target="_blank">Tobias Sturm</a>; not finished yet...)</p>
+					<figure class='in-text-image'>
+                    <img class='frame restrain-max' src='assets/sharepad1.jpg' alt='sharepad'></img>
+					<figcaption>Figure 2: Sharepad</figcaption>
+					</figure></p>
+                    <hr>
+	
+
+
+
+					<p id='swarm-robots' class='project'><a name='swarm-robots'></a>
+						<h2>Swarm Robots</h2>
+                        <figure class='in-text-image right'>   
+                        <img src='assets/asuro-ants.jpg' alt='ants' style='height: 300px;' ></img>             <figcaption>Figure 3: Ants solving a task <br>collaboratively.     </figcaption>
+                        </figure>
+						<p>Inspired by the way that ants can work together without a leader and without direct communication (often only over pheromones) we wanted to explore how robots could work together in a team. I did this project together with my friends <a href='http://www.tobiassturm.de/' target="_blank">Tobias Sturm</a> and Renke Schulte.</p>
+						<p>We tried to come up with a task that several robots could solve so that it could increase productivity to have several robots working on the same task as opposed to only one. Our idea was the following: A number of plastic bottles is randomly spread and the robots' task is to move them together to one 'pile' (I will use the word 'pile' although bottles are not placed on top of each other). 
+                        </p>
+              
+                         <p>						
+                        We bought four Asuro robots by the DLR (German space agency). These are very simple, cheap robots just with two wheels and half a table-tennis ball on which they slide. After assembling them we added two things that were necessary for our task: an infrared-sensor to be able to detect bottles and two metal rods at the front to be able to pick up bottles. The original configuration of the robots includes 6 touch sensors at the front to detect collision and infrared sensors at the wheels to measure distance travelled. We divided the work as follows: Renke was responsible for the hardware, he built the robots (they came as spare parts that had to be soldered to the circuit board). Tobias wrote a simulation which allowed us to do the same experiments as in reality just without some constraints like battery time. My task was to program the robots in C.  
+                        </p>
+                        <figure class='in-text-image'>
+                       <img src='assets/asuro-sideview.jpg' alt='asuro-side' style='width: 480px;'></img>
+                       <figcaption>Figure 4: Asuro robot</figcaption>
+                       </figure>
+                       <figure class='in-text-image'>
+				  	<img class='restrain-max' src='assets/asuro-experiment.jpg' alt='experiment'></img>	
+					<figcaption>Figure 5: Set up of the experiment </figcaption>
+                    </figure>
+					</p>
+                    <h3>Strategy to solve the collaboration task</h3>
+					 <p>						
+                  		Similar to ants the Asuro robots where also extremely simple individually: there was no way to communicate with each other, no GPS-like location detection etc. Thus our challenge was to let the robots solve the task together despite not being able to communicate. Our inspiration for a solution came again from nature: Some termites build there nests in the following dezentralized way: One termite starts accumulating dirt at some place. Every termite follows the rule that when they encounter an accumulation of dirt they won't put the dirt they collected to a new place but to the place they found. At some point the accumulation becomes bigger and easier to see for everyone which means everyone will start collaborating building this big pile instead of other smaller ones.
+                        </p>                        
+             <p>         
+                      Just as this solution, our idea is also dezentralized and works without communication: In the beginning the bottles are spread out over the whole area. The robots drive around randomly to explore. If one robot detects a bottle with its infrared-sensor it takes it up and drives around again, pushing the bottle in front of it. If it detects another bottle it measures its size (it could be a pile as well) and saves this as the largest known pile-size. Every subsequent time the robot encounters a pile/bottle while currently pushing a bottle it only adds it to the pile if it is larger or equal to the largest known pile. Robots cannot save the location of the piles because they don't have any location detection mechanism. Different robots might have different largest known piles which means they first build several smaller piles (figure 5, middle) but eventually they will bump into the other piles too and the larger pile will win ('rich get richer' strategy). This means that even without communicating there should be collaboration emerging simply by the rules that every individual follows.		
+					</p>
+                    <figure class='in-text-image' style='margin-left:0;'>
+                         <img class='in-text-image' src='assets/asuro-strategy.jpg' alt='strategy' style='width:600px;'></img>						
+                         <figcaption>Figure 6: Strategy to solve the task</figcaption>
+                         </figure>
+                         
+                         <figure class='in-text-image'>
+						<img class='in-text-image' src='assets/asuro-measurement.jpg' alt='measurments' style='width:300px;'></img>
+						<figcaption>Figure 7: Measurement of pile-size</figcaption>
+                        </figure>
+                    <p>
+                    I have been talking about the robots measuring the pile size. Let me explain in more detail how this works: Figure 6 depicts a pile of bottles where we want to know radius r assuming that the bottles are arranged more or less in a circle. The robots 'vision' is only a distance at exactly one point (where the infrared sensor points to). This means the robot has to turn from pointing to one end of the pile to the other end. By this procedure it determines $\alpha$ (the degree turned) and d (the minimum distance to the circle). The best we can do is get an estimation of the size of the pile, it won't always be correct. Quantity d is almost the same as the minimum distance from robot to the circle around the pile. Since there is a right angle between t and r we get: <br>
+                    <br>
+                    $ sin \frac{\alpha}{2} = \frac {r}{r+d}$ <br><br>
+                    This can be transformed into: &nbsp; &nbsp;
+                    $ r = \frac{d}{(sin \frac{\alpha}{2})^{-1} - 1} $
+                    </p>
+                    <br>
+                    <h3>Experiments</h3> 
+                 	<p>
+					We conducted experiments on a 2x2m area (figure 4) with the following constellations to rule out the start positions of the bottles as a factor deciding the outcome of the experiments:
+                    <ul>
+                    	<li>1 robot, bottles arranged in a grid</li>
+	                    <li>1 robot, bottles arranged pseudo-randomly (same positions for every experiment)</li>
+	                    <li>3 robots, bottles arranged in a grid</li>
+	                    <li>3 robots, bottles arranged pseudo-randomly </li>
+                    </ul> 
+                    Each of the experiments lasted 15 min and we repeated it for each of the constellations 4 times which makes 16 experiments.
+                    </p>  
+                     <figure class='in-text-image'>
+                    <img class='frame' src='assets/asuro-experiments2.png' alt='experiments' style='width: 200px;'></img>
+                    <figcaption>Figure 7: Bottle positions at the end of an experiment></figcaption>
+                    </figure>
+                    <p>     
+                    Every experiment was filmed by a webcam positioned exactly above the experimental area (see figure 4). We took the last image of each experiment and marked the positions of the bottles with a small tool that we wrote, yielding images like figure 7. We define that two bottles belong to the same pile if the distance of their center points is less than 15cm because this is approximately the tolerance value from which on a robot recognizes two bottles as a pile and not two single bottles. We define the task as solved well if many bottles stand very close together. To measure this we imagined a circle of 7.5cm around each bottle. The more bottles stand very close together the more are these circles overlapping. Therefore, the total area that is covered by these circles is a measure for effectivity: &nbsp;&nbsp;&nbsp; $ effectivity \sim \frac{1}{occupied\hspace{3pt}  area} $ ).</p>
+</p>
+                   <h3>Results</h3>
+                     <figure class='in-text-image'>
+                    <img class='' src='assets/asuro-results.png' alt='experiments' style='width: 500px;'></img>
+                    <figcaption>Figure 8: Results of the experiments</figcaption>
+                    </figure>
+                    <p>
+                    Averaging all experiments we got slightler better effectivity-values for 3 robots than for 1 both in the pseudo-random bottle arrangement as well as the grid (figure 8 shows results for one robot in blue and three robots in red). However, you would expect three robots to be about three times better than one robot (shown in green) which they did not reach by far. This means in this case the robots did not collaborate very well. Sometimes they did destroy piles that another robot just built. Mostly the results are due to the fact that we reached the borders of what you can do with such simplistic technology: Since the sensors at the wheels measuring how much they turn work with light they were sensitive to the environment. Due to this it could sometimes happen that a measurement was wrong and a robot e.g. assumes a way too bug 'largest-known-pile' which means it does not do anything sensible for the rest of the experiment. 
+                  </p>
+                  <p>
+                  In 2009 and 2010 we took part in the German science competition <a href='http://www.jugend-forscht.de/' target="_blank">Jugend forscht</a>. In 2009 we became 2nd on regional level, in 2010 we got the 3rd prize of federal state level. The complete paper written for the competition can be found <a href='assets/swarm robots jugend forscht landeswettbewerb 2010.pdf' target="_blank">here</a> (18 pages, German).
+                  </p>
+                  
+                   <hr>        
+                  <p id='mindshare' class='project'><a name='mindshare'></a>
+						<h2>Mindshare</h2>
+                        <p>
+                   In 2007 <a href='http://www.tobiassturm.de/' target="_blank">Tobias Sturm</a> and me made a website to enable students to share knowledge and help each other studying. The idea was that everyone can upload documents (text, images, pdf etc.) that a part of knowledge learned in school or additional to it. These can then be linked to a class within a school, to a subject and to other keywords. We made a tag-cloud to be able to browse through different keywords and discover interesting content. The aim of this system was to be complementing to the traditional school and give students the possibility to fill knowledge gaps, help each other studying and discover interesting topics.</p>
+                  <p>With this project we participated in the German science competition <a href='http://www.jugend-forscht.de/' target="_blank">Jugend forscht</a> in 2007. The website is not online anymore.    
+                  A <a href='http://downloads.tobiassturm.de/projects/mindshare/site/index.html' target="_blank">documentation website</a> with more information can be found here (in German).</p>
+                     <figure class='in-text-image'>
+                    <img class='restrain-max' src='assets/mindshare1.jpg' alt='experiments'></img>
+                    <figcaption>Figure 9: Mindshare startpage showing recently uploaded documents></figcaption>
+                    </figure>
+                   </p>      
+                   <hr>
+                   
+                 <p id='fractals' class='project'><a name='fractals'></a>
+						<h2>Sierpinski Fractals in Polygons</h2>
+                         <figure class='in-text-image right'>
+                    <img class='' src='assets/fractals1.jpg' alt='fractals'></img>
+                    <figcaption>Figure 10: Sierpinski triangle></figcaption>
+                    </figure>
+                        <p>
+                     Fractals are self-similar patterns. For example the Sierpinski triangle contains three smaller triangles which each contain three triangles and so on. <a href='http://www.tobiassturm.de/' target="_blank">Tobias Sturm</a> wondered in 2005 why the Sierpinski pattern is only known in triangles and whether the same algorithm applied to other polygons would yield fractals as well. The Sierpinski algorithm works as follows:</p>
+                     <ol>
+                     	<li>choose a random point in the triangle.</li>
+                        <li>choose a random corner and draw an imaginary line from the this point to this corner.</li>
+                        <li>draw a point at the middle of this line and repeat (2) from this point.</li>
+                     </ol>
+                     <p><b>Figure 10</b> shows the result of repeating this process <b>100,000</b> times. <b>black and white</b> We wrote a program that applies the same algorithm to any regular polygon, freely drawn polygons, in 3D, in more dimensions (without drawing it) and helps analyzing them by zooming etc.</p>
+            
+                     <p>We wondered what would happen if we didn't draw the points in the middle of the imaginary lines but divide the line by another factor. We called this 'linefactor' and <b>figures</b> 12-15 show the results of playing with the linefactor.</p>
+                  <table class='pictures'>
+                     <tr>   
+                     <td>    
+                     <figure class='in-text-image table'>
+                    <img class='' src='assets/fractals2LF2.jpg' alt='fractals' style='height: 320px;'></img>
+                    <figcaption>Figure 11: Pentagon with linefactor 2</figcaption>
+                    </figure>
+                    </td>
+			<td>    
+                     <figure class='in-text-image table'>
+                    <img class='' src='assets/fractals3LF2.62.jpg' alt='fractals' style='height: 320px;'></img>
+                    <figcaption>Figure 12: Pentagon with linefactor 2.62</figcaption>
+                    </figure>
+                    </td>     
+                 </tr>
+                 </table>
+                  <table class='pictures'>
+                     <tr>   
+			     <td>     
+			     <figure class='in-text-image table'>
+                    <img class='' src='assets/fractals4LF3.5.jpg' alt='fractals' style='height: 320px;'></img>
+                    <figcaption>Figure 13: Pentagon with linefactor 3.5</figcaption>
+                    </figure>
+                    </td>
+                     <td>    
+                     <figure class='in-text-image table'>
+                    <img class='' src='assets/fractals5lf-2.62.jpg' alt='fractals' style='height: 320px;'></img>
+                    <figcaption>Figure 11: Pentagon with linefactor -2.62</figcaption>
+                    </figure>
+                    </td>
+                 </tr>
+		 <tr>
+			 	<td>    
+                     <figure class='in-text-image table'>
+                    <img class='' src='assets/fractals7lf2.5.jpg' alt='fractals' style='height: 320px;'></img>
+                    <figcaption>Figure 12: Freely drawn form, linefactor 2.5</figcaption>
+                    </figure>
+                    </td>
+					<td>    
+                     <figure class='in-text-image table'>
+                    <img class='' src='assets/fractals9LF2.5.jpg' alt='fractals' style='height: 320px;'></img>
+                    <figcaption>Figure 13: Pyramid (3D), linefactor 2.5</figcaption>
+                    </figure>
+                    </td>
+	    </tr>
+                 </table>
+                     <p>In 2006 we took part in the German science competition <a href='http://www.jugend-forscht.de/' target="_blank">Jugend forscht</a> the first time. We got the inspiration from Sven Schimmel, founder of <a href='http://ippos.net/index.aspx' target="_blank">Ippos.net</a> who used his spare time to teach programming to kids. Thanks Sven :) &nbsp; We won the first prize on federal state level which means we could travel to Freiburg and take part in the highest level of Jugend forscht (Germany-wide). This was so inspiring that we did more projects in every subsequent year (see above).
+                     </p>
+                     
+                </p>                                                               
+				</div>
+		</div>
+		<div id='footer'>
+			<a href='disclaimer.html'>disclaimer</a>
+		</div>
+	</body>
+</html>

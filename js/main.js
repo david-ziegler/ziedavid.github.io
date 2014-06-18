@@ -1,0 +1,28 @@
+
+
+
+
+	var page = window.location.href;
+	page = page.substr((page.lastIndexOf('/') + 1));
+	page = page.split('.');
+	page = page[0];
+
+	page = page.toUpperCase();
+	//This accounts for upper or lower casing of urls by browsers.	
+	switch(page) {
+	    case "INDEX":
+		$(document).ready(function(){
+			$('#projects').addClass('chosen');
+		});
+		break;
+	    case "ABOUT":
+		$(document).ready(function(){
+			$('#about').addClass('chosen');
+		});
+		break;
+	    default:
+		$(document).ready(function(){
+			$('#projects').addClass('chosen');
+		});
+		break;
+	}
