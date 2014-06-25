@@ -196,6 +196,8 @@ span.cite-journal{
 
 p.citation{
 	font-size:11pt;
+	PADDING-LEFT: 2em;
+	text-indent: -2em;
 }
 
 
